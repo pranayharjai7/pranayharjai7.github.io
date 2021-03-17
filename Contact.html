@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, intial-scale=1.0" />
+    <link rel="stylesheet" href="NewStyle.css" />
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Back</a>
+    </div>
+
+    <div style="float:left">
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; Menu</span>
+    </div>
+    
+    <div class="ContactParallax1">
+        <div class="centered">
+        <h1 style="font-family:cursive">
+            <br /><br />Pranay<br /><br />
+            Email:&nbsp;
+            <a href="mailto:pranayharjai7@gmail.com">pranayharjai7@gmail.com</a><br />
+            Git:&nbsp;
+            <a href="https://www.github.com/pranayharjai7">pranayharjai7</a><br />
+            Insta: &nbsp;
+            <a href="https://www.instagram.com/pranay.o_o/">pranay.o_o</a>
+        </h1>
+        </div>
+    </div>
+
+    <script>
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+
+        }
+    </script>
+</body>
+</html>
